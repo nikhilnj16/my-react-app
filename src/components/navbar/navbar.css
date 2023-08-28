@@ -1,0 +1,101 @@
+.student__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.student__list-links{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.student__links-logo{
+    margin-right: 4rem ;
+
+
+}
+
+
+.student__links_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3.5rem;
+   
+
+}
+
+.student__links_sign{
+    display: flex;
+    justify-content:end;
+    align-items:top;
+    padding-bottom: 1rem;
+    
+    
+}
+.student__links_container p,
+.student__links_sign p,
+.student__menu_container p{
+    color:#fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1px;
+    text-transform: capitalize;
+    
+
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+.student__links_sign button,
+.student__menu_container button{
+
+    align-items:center;
+    color: #fff;
+    padding: 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: -1.5rem;
+    
+   
+    background:linear-gradient(93.87deg,#05054e,#070916);
+    border-radius: 10px;
+    border: 0;
+    
+    
+
+
+}
+
+.student__links_container p a{
+   
+    transition: all 0.3s ease 0s;
+
+}
+.student__links_container p a:hover{
+    color: red;
+}
+
+.student__links_sign p a {
+   
+    transition: all 0.3s ease 0s;
+
+}
+.student__links_sign p a:hover{
+    color: red;
+}
+
+
+.Navbar__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 100%; 
+  }
